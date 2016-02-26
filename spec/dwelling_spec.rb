@@ -20,5 +20,4 @@ describe Dwelling do
       expect(dwelling.zip_code).to eq("03149")
     end
   end
-
 end

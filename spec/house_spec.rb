@@ -29,5 +29,4 @@ describe House do
       expect(house).to be_a(Dwelling)
     end
   end
-
 end

@@ -1,5 +1,3 @@
-# require_relative 'Apartment'
-
 class Occupant
   attr_reader :first_name, :last_name, :full_name
 
@@ -8,6 +6,4 @@ class Occupant
     @last_name = last_name
     @full_name = "#{first_name} #{last_name}"
   end
-
-
 end

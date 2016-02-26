@@ -11,6 +11,9 @@ describe Occupant do
     it "should take an argument of last name" do
       expect(bob.last_name).to eq("Burgers")
     end
-  end
 
+    it "should have a full name that combines the first and last name" do
+      expect(bob.full_name).to eq("Bob Burgers")
+    end
+  end
 end
